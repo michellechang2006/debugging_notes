@@ -285,9 +285,12 @@ setTimeout(showSlides, 5000); // Change image every 2 seconds
 ##### [MDN 例子](https://developer.mozilla.org/zh-TW/docs/Learn/JavaScript/Asynchronous/Introducing)
 
 
+
 其實在MDN也有說明到，「[現在許多 Web API 功能都是使用非同步程式碼的做法，特別是那些要從外部裝置存取或抓取某些種類資源的功能，像是從網路抓取檔案、存取資料庫並回傳資料](https://tinyurl.com/2cqjddcr)」。`fetch()`這個Web API 也是如此。
 
+
 這個例子，一樣使用`fetch()`這個Web API 。`blob`變數執行時，沒有`response`變數的資料（圖片），所以圖片並不會成功載入到網頁上。
+
 
 
 ```js
